@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item android:id="@+id/tem1"
+      android:title="Text xajmi"
+      app:showAsAction="never"></item>
+    <item android:id="@+id/tem2"
+        android:title="Shrift rangi"
+        app:showAsAction="never"></item>
+    <item android:id="@+id/tem3"
+        android:title="Tilni tanlash"
+        app:showAsAction="never"></item>
+</menu>

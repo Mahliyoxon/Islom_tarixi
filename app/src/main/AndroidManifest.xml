@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.hikoya">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/moon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/moon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hikoya">
+        <activity android:name=".MainActivity2"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Dashboard" />
+        <activity
+            android:name=".Entery"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".Second_Dashboard"
+            android:launchMode="singleTask"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".Last_page"
+            android:parentActivityName=".Second_Dashboard" />
+    </application>
+
+</manifest>
